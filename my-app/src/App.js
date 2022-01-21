@@ -1,24 +1,21 @@
 import React from "react";
-import Topbar from "./components/topbar/Topbar";
-import Intro from "./components/intro/Intro";
-import Testimonials from "./components/testimonials/Testimonials";
-import Portfolio from "./components/portfolio/Portfolio";
+import Navbar from "./components/navbar/Navbar";
+import Home from "./components/home/Home";
 import Works from "./components/works/Works";
+import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
-import './app.scss'
+import './app.scss';
 
-export default function App() {
-  const [menuOpen, setMenuOpen] = React.useState(true)
+export default function App(){
   return (
     <div className="app">
-      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <div className="sections">
-        <Intro />
-        <Portfolio />
+        <Navbar/>
+        <Home />
         <Works />
-        <Testimonials />
+        <Skills />
+        
         <Contact />
-      </div>
     </div>
   );
 }
+        
