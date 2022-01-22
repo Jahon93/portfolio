@@ -17,11 +17,11 @@ export default function Contact() {
         
         <div className="box right">
             <form action="/action_page.php">
-            <input type="text" id="fname" name="firstname" placeholder="First name" />
+            <input type="text" id="fname" name="firstname" placeholder="First name" required/>
         
-            <input type="text" id="lname" name="lastname" placeholder="Last name" />
+            <input type="email" id="email" name="email" placeholder="Email" required />
         
-            <textarea id="subject" name="subject" placeholder="Write me"></textarea>
+            <textarea id="subject" name="subject" placeholder="Write me" required></textarea>
         
             <button className='btn' type="submit" value="Submit">Get in touch</button>
           </form>
