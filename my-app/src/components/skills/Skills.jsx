@@ -27,20 +27,18 @@ const data = [
       return (
           <div className="skills" id="skills">
             <div>
-                <h1>Skills</h1>
+                <h1 className='skills-header'>Skills</h1>
             </div>
 
-            <div className='wrap-box'>
+            <div className='skills-container'>
             {data.map((d) => (
-                <div className='container'>
-                    <div className="box">
+                    <div className="skills-box">
                         <div className="card">
                                 <img src={d.img} alt="" />
                                 <h3>{d.title}</h3>
                                 <p>{d.text}</p>
                         </div>
                     </div>
-                </div>
                 ))}
             </div>
 

@@ -5,31 +5,18 @@
 
 }
 
-h1 {
+.contact-header {
     text-align: center;
     margin: 3rem 0 1rem 0;
-    color: rgb(43, 42, 42);
+    color: rgb(59, 59, 59);
     font-size: 2.2rem;
     letter-spacing: 2px;
 }
-h3 {
-    font-size: 1.8rem;
-    color: rgb(43, 42, 42);
+.contact-text {
+    font-size: 1.5rem;
+    color: rgb(59, 59, 59);
     text-align: center;
 }
-p {
-    font-size: 1.3rem;
-    color: rgb(61, 61, 61);
-    margin-bottom: .8rem;
-    margin-top: 3rem;
-}
-
-.Bill-Gates {
-    text-align: end;
-    margin-top: 0;
-
-}
-
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -37,52 +24,74 @@ p {
     align-items:center;
     width: 80%;
     margin: 0 auto;
+    .box {
+        width: 500px;
+        height: 500px;
+        margin: 1rem;
+    
+    }
+    
+    .left {
+        p {
+            font-size: 1.3rem;
+            color: rgb(61, 61, 61);
+            margin-bottom: .8rem;
+            margin-top: 3rem;
+        }
+        
+        .Bill-Gates {
+            text-align: end;
+            margin-top: 0;
+        
+        }
+    
+        img {
+            width: 90%;
+            height: 220px;
+            margin-top: 1.2rem;
+            margin-left: 1.5rem;
+        }
+    
+    }
+    
+    .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        input[type=text], select, textarea {
+            width: 90%;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            margin-left: 1.7rem;
+            font-size: 1rem;  
+            box-shadow: 0 2px 9px -2px rgb(0 0 0 / 20%) ;
+          
+          }
+          textarea {
+              height: 200px;
+          }
+          
+          .btn {
+            background-color: #1106ad;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 1.7rem;
+          }
+          
+    
+    }
 
 }
-.box {
-    width: 500px;
-    height: 500px;
-    margin: 1rem;
-
-}
 
 
-.right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
-img {
-    width: 90%;
-    height: 220px;
-    margin-top: 1.2rem;
-    margin-left: 1.5rem;
-}
-
-input[type=text], select, textarea {
-  width: 90%;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  font-size: 1rem;  
-  box-shadow: 0 2px 9px -2px rgb(0 0 0 / 20%) ;
-
-}
-textarea {
-    height: 200px;
-}
-
-.btn {
-  background-color: #1106ad;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-}
 
