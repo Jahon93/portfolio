@@ -14,7 +14,7 @@ export default function Works() {
           <img src={img1} alt=""/>
           <h2 className='items-name'>Original Trombones</h2>
           <ul>
-            <li><a href='##'>View Codee</a></li>
+            <li><a href='##'>View Code</a></li>
             <li><a href='##'>See Project</a></li>
           </ul>          
         </div>  
