@@ -7,8 +7,8 @@ import img4 from './images/img4.PNG'
 
 export default function Works() {
   return (
-    <div >
-      <div className='works' id='works'>
+      <div className='works' id='projects'>
+      <h1 className='works-header'>My Recent works</h1>
         <div className='works-container'>
         <div className='works-items'>
           <img src={img1} alt=""/>
@@ -64,7 +64,5 @@ export default function Works() {
 
       </div>
       </div>
-
-    </div>
   );
 }

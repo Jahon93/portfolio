@@ -1,0 +1,26 @@
+.footer {
+    background-color: #fff;
+    box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 20%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   a {
+       font-size: 2rem;
+       text-align: center;
+       margin:  0 1rem;
+       padding: 1rem;
+       box-sizing: border-box;       
+   }
+   .git-icon {
+       font-size: 2.3rem;
+       color: #171515;
+   }
+   .in-icon {
+       color: #0e76a8 ;
+
+   }
+   .instagram-icon {
+       color: #bc2a8d;
+   }
+}

@@ -1,12 +1,16 @@
 
 .works {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     overflow-y: hidden;
     
+    .works-header {
+        margin-top: 3rem;
+        color: rgb(59, 59, 59);
+    }
     .works-container {
         width: 70%;
         display: flex;
@@ -59,13 +63,17 @@
                     a{
                         text-decoration: none;
                         font-size: 18px;
-                        background-color: #3590e6;
+                        background-color: #2746f7;
                         color: #fff;
                         border-radius: 5px;
                         padding: 6px;
                     }
                     a:hover{
-                        background-color: #286aa8;
+                        color: #2746f7;
+                        background-color: #fff;
+                        transition: 200ms ease-in;
+                        font-weight: 500;
+                        transform: scale(1.1);
                     }                    
                 }
                 

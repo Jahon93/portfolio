@@ -4,7 +4,8 @@ import Home from "./components/home/Home";
 import Works from "./components/works/Works";
 import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
-import './app.scss';
+import Footer from "./components/footer/Footer";
+// import './app.scss';
 
 export default function App(){
   return (
@@ -13,8 +14,8 @@ export default function App(){
         <Home />
         <Works />
         <Skills />
-        
         <Contact />
+        <Footer />
     </div>
   );
 }
