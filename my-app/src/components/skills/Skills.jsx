@@ -20,7 +20,7 @@ const data = [
         id: "3",
         title: "Performance, SEO, & accessibility testing",
         text: "Making your website fast, easy to find, and reaching the widest audience possible.",
-        img: "https://silktide.com/app/uploads/2021/07/Public-sector-websites-header.png",
+        img: "https://www.topwebaccessibilitychecker.com/wp-content/uploads/sites/2/2021/04/Disabilities-illustration.png",
     },
 ];
     
