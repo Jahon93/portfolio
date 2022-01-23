@@ -40,7 +40,7 @@ export default function Works() {
 
         <div className='works-items'>
           <img src={img4} alt=""/>
-          <h2 className='items-name'>Passanger Counter</h2>
+          <h2 className='items-name'>Passenger Counter</h2>
           <ul>
             <li><a href='https://github.com/Jahon93/passenger-counter'>View Code</a></li>
             <li><a href='https://bus-passenger-counter.netlify.app/'>See Project</a></li>
