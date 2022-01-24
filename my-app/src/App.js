@@ -5,7 +5,6 @@ import Works from "./components/works/Works";
 import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-// import './app.scss';
 
 export default function App(){
   return (
